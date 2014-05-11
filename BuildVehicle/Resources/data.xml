@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<parts>
+		<!-- <part category="" id="" name="" frameId="" ranking="" acceleration="" braking="" armor="" speed="" drag="" accuracy="" range="" damage="" special="" tagline="" /> -->
+		
+		<!-- COCKPITS -->
+		<part category="CATEGORY_COCKPIT"  id="PART_COCKPIT_1" name="Tarbis" 		frameId="part_Cockpit1" ranking="1" acceleration="3" braking="" 	armor="2" speed="" drag="" accuracy="" range="NONE" damage="" special="Vanish for 3 sec when attacked." tagline="Hmmm. Are you sure it's supposed to be so blue?" />
+		<part category="CATEGORY_COCKPIT"  id="PART_COCKPIT_2" name="Tankard" 		frameId="part_Cockpit2" ranking="2" acceleration="1" braking=""		armor="4" speed="" drag="" accuracy="" range="NONE" damage="" special="" 								tagline="Doubles as a drinking cup." />
+		<part category="CATEGORY_COCKPIT"  id="PART_COCKPIT_3" name="Wheelhaus" 	frameId="part_Cockpit3" ranking="3" acceleration="2" braking="1" 	armor="3" speed="" drag="" accuracy="" range="NONE" damage="" special="" 								tagline="I'll never steer you wrong." />
+		<part category="CATEGORY_COCKPIT"  id="PART_COCKPIT_4" name="Rickits Folly" frameId="part_Cockpit4" ranking="4" acceleration="2" braking="" 	armor="1" speed="" drag="" accuracy="" range="NONE" damage="" special="" 								tagline="Falling apart at the seams? Less drag!" />
+		
+		<!-- ENGINES -->
+		<part category="CATEGORY_ENGINE"  id="PART_ENGINE_1" name="Rabit's Foot" 	frameId="part_Engine1" ranking="1" acceleration="3" braking="" armor="" speed="12" drag="" accuracy="" range="NONE" damage="" special="" tagline="We design our own luck!" />
+		<part category="CATEGORY_ENGINE"  id="PART_ENGINE_2" name="The Red Baron" 	frameId="part_Engine2" ranking="2" acceleration="2" braking="" armor="" speed="15" drag="" accuracy="" range="NONE" damage="" special="" tagline="No, not steady and slow- steady and fast!" />
+		<part category="CATEGORY_ENGINE"  id="PART_ENGINE_3" name="Gas Monkey" 		frameId="part_Engine3" ranking="3" acceleration="2" braking="" armor="" speed="12" drag="" accuracy="" range="NONE" damage="" special="" tagline="We have no idea how a monkey built and engine!" />
+		<part category="CATEGORY_ENGINE"  id="PART_ENGINE_4" name="Ol' Faithful" 	frameId="part_Engine4" ranking="4" acceleration="0" braking="" armor="" speed="10" drag="" accuracy="" range="NONE" damage="" special="" tagline="Well she's definetly old. Don't know about faithful!" />
+		
+		<!-- FRAMES -->
+		<part category="CATEGORY_FRAME"  id="PART_FRAME_1" name="Ironbottomë" 		frameId="part_Frame1" ranking="1" acceleration="" braking="" armor="8" speed="" drag="-0.15" 	accuracy="" range="NONE" damage="" special="" tagline="Armor for ye front, and armor for ye bottom." />
+		<part category="CATEGORY_FRAME"  id="PART_FRAME_2" name="Dragon Glass" 		frameId="part_Frame2" ranking="2" acceleration="" braking="" armor="4" speed="" drag="-0.05" 	accuracy="" range="NONE" damage="" special="" tagline="Remember glass, not scales" />
+		<part category="CATEGORY_FRAME"  id="PART_FRAME_3" name="Keelhull" 			frameId="part_Frame3" ranking="3" acceleration="" braking="" armor="5" speed="" drag="-0.1" 	accuracy="" range="NONE" damage="" special="" tagline="Latest design from the nomish navy." />
+		<part category="CATEGORY_FRAME"  id="PART_FRAME_4" name="AeroFrame" 		frameId="part_Frame4" ranking="4" acceleration="" braking="" armor="2" speed="" drag="0" 		accuracy="" range="NONE" damage="" special="" tagline="Near, far, in our motor car..." />
+		
+		<!-- TIRES -->
+		<part category="CATEGORY_TIRE"  id="PART_TIRE_1" name="Road Eaters" 		frameId="part_Tire1" ranking="1" acceleration="3" braking="2" armor="" 	speed="" drag="" accuracy="" range="NONE" damage="" special="" tagline="Eat my dust! Wait, that's not dust..." />
+		<part category="CATEGORY_TIRE"  id="PART_TIRE_2" name="Spiked" 				frameId="part_Tire2" ranking="2" acceleration="1" braking="3" armor="1" 	speed="" drag="" accuracy="" range="NONE" damage="" special="" tagline="Want to see me up close?" />
+		<part category="CATEGORY_TIRE"  id="PART_TIRE_3" name="GyroTyros" 			frameId="part_Tire3" ranking="3" acceleration="2" braking="2" armor="" 	speed="" drag="" accuracy="" range="NONE" damage="" special="" tagline="Greek shaved spin" />
+		<part category="CATEGORY_TIRE"  id="PART_TIRE_4" name="Burned Rubber" 		frameId="part_Tire4" ranking="4" acceleration="1" braking="1" armor="" 	speed="" drag="" accuracy="" range="NONE" damage="" special="" tagline="Smoke? What's that smell?" />
+		
+		<!-- WEAPONS -->
+		<part category="CATEGORY_WEAPON"  id="PART_WEAPON_1" name="Skid Missile" 	frameId="part_Weapon1" ranking="1" acceleration="" braking="" armor="" speed="" drag="" accuracy="0.75" 	range="LONG" 	damage="4" special="" 							tagline="Eat skid, skum!" />
+		<part category="CATEGORY_WEAPON"  id="PART_WEAPON_2" name="Dirk" 			frameId="part_Weapon2" ranking="2" acceleration="" braking="" armor="" speed="" drag="" accuracy="0.9" 	range="SHORT" 	damage="3" special="" 							tagline="I don't mean heads down!" />
+		<part category="CATEGORY_WEAPON"  id="PART_WEAPON_3" name="Pea Shooter" 	frameId="part_Weapon3" ranking="3" acceleration="" braking="" armor="" speed="" drag="" accuracy="0.8" 	range="MEDIUM" 	damage="2" special="" 							tagline="Hey, who threw that?" />
+		<part category="CATEGORY_WEAPON"  id="PART_WEAPON_4" name="Tractor Hook" 	frameId="part_Weapon4" ranking="4" acceleration="" braking="" armor="" speed="" drag="" accuracy="0.7" 	range="LONG" 	damage="2" special="Increase crash risk 5%." 	tagline="Who needs tractor beams?" />
+	</parts>
+	
+	<characters>
+		<!-- <character category=""  race="" name="" ranking="" acceleration="" armor="" speed="" specialID="" specialTxt="" tagline="" /> -->
+		
+		<!-- MECHANICS -->
+		<character category="CHAR_CATEGORY_MECHANIC" id="MECHANIC_MISS_TEAK" 	race="CHAR_RACE_ELF" 	name="Miss Teak" 	ranking="1" acceleration="0" armor="0" speed="165" 	returnSpeed="165" 	specialID="CHAR_SPECIAL_10PCT_SPEED_WALK" 	specialTxt="10% walking speed bonus." 								tagline="Why run when you can glide?" />
+		<character category="CHAR_CATEGORY_MECHANIC" id="MECHANIC_FERMIUM" 		race="CHAR_RACE_GNOME" 	name="Fermium" 		ranking="2" acceleration="1" armor="0" speed="150" 	returnSpeed="172.5" specialID="CHAR_SPECIAL_15PCT_SPEED_RETURN" specialTxt="15% walking speed when returning to base with parts." 	tagline="This engine is heavy but I'm heavier." />
+		<character category="CHAR_CATEGORY_MECHANIC" id="MECHANIC_NOMRENCH" 	race="CHAR_RACE_GNOME" 	name="Nomrench" 	ranking="3" acceleration="1" armor="0" speed="135" 	returnSpeed="135" 	specialID="CHAR_SPECIAL_RACE_REPAIR" 		specialTxt="Repairs get you back in race in half the time."		 	tagline="Who needs tools anyway?" />
+		<character category="CHAR_CATEGORY_MECHANIC" id="MECHANIC_ROCKIE" 		race="CHAR_RACE_DEMON" 	name="Rockie" 		ranking="4" acceleration="0" armor="2" speed="150" 	returnSpeed="150" 	specialID="CHAR_SPECIAL_NONE" 				specialTxt="" 														tagline="Just try to get past me." />
+	</characters>
+	
+	<!-- TODO: We might also want to create a table for all of the various specials that can be applied to characters and parts.  But for now, the amount of work for the prototype would be too much.  But I would recommend it during full production.  We might also want to create seperate xml files. -->
+</data>

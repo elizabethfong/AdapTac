@@ -1,17 +1,19 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-CSharp-firstpass.csproj", "{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}"
 EndProject
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-CSharp.csproj", "{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}"
 EndProject
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-CSharp-Editor-firstpass.csproj", "{4739E62C-8156-B518-1AF5-3D0D2071C7F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{4739E62C-8156-B518-1AF5-3D0D2071C7F5}"
 EndProject
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-CSharp-Editor.csproj", "{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}"
 EndProject
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-UnityScript-firstpass.unityproj", "{AD577662-A6D2-5A21-8397-5641ECA36113}"
+Project("{b955b5aa-9c1c-4cd6-9a10-9e34431be3eb}") = "Assembly-UnityScript-firstpass", "Assembly-UnityScript-firstpass.unityproj", "{AD577662-A6D2-5A21-8397-5641ECA36113}"
 EndProject
-Project("{B8FC4B77-E069-4E52-21FD-9F86E0A10C55}") = "AdapTac", "Assembly-UnityScript.unityproj", "{91D42AD0-0300-6C42-F471-ACCE578C63F2}"
+Project("{b955b5aa-9c1c-4cd6-9a10-9e34431be3eb}") = "Assembly-UnityScript", "Assembly-UnityScript.unityproj", "{91D42AD0-0300-6C42-F471-ACCE578C63F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildVehicle", "BuildVehicle\BuildVehicle.csproj", "{513A5610-C749-4BD9-9B2B-FA42B035C60F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,35 +21,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4739E62C-8156-B518-1AF5-3D0D2071C7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4739E62C-8156-B518-1AF5-3D0D2071C7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4739E62C-8156-B518-1AF5-3D0D2071C7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4739E62C-8156-B518-1AF5-3D0D2071C7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513A5610-C749-4BD9-9B2B-FA42B035C60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513A5610-C749-4BD9-9B2B-FA42B035C60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513A5610-C749-4BD9-9B2B-FA42B035C60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513A5610-C749-4BD9-9B2B-FA42B035C60F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DEBF93E-6426-EAFD-010F-8729E6C9F3CD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD577662-A6D2-5A21-8397-5641ECA36113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD577662-A6D2-5A21-8397-5641ECA36113}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD577662-A6D2-5A21-8397-5641ECA36113}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD577662-A6D2-5A21-8397-5641ECA36113}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91D42AD0-0300-6C42-F471-ACCE578C63F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91D42AD0-0300-6C42-F471-ACCE578C63F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91D42AD0-0300-6C42-F471-ACCE578C63F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91D42AD0-0300-6C42-F471-ACCE578C63F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8A4BFD-225D-9CB7-2883-7C73FCBEFD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD577662-A6D2-5A21-8397-5641ECA36113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD577662-A6D2-5A21-8397-5641ECA36113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD577662-A6D2-5A21-8397-5641ECA36113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD577662-A6D2-5A21-8397-5641ECA36113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97BF3CB-6146-3CB6-DFD3-C967BA72CBC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -65,5 +68,7 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 EndGlobal
