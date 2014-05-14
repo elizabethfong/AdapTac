@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\XML\data.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BuildVehicle\Scripts\PartManager\PartManager.cs">
     <Files>
-      <File FileName="Assets\XML\data.xml" Line="3" Column="9" />
+      <File FileName="BuildVehicle\Scripts\Model.cs" Line="14" Column="1" />
+      <File FileName="BuildVehicle\Scripts\PartManager\PartManager.cs" Line="42" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
