@@ -190,6 +190,8 @@
     <None Include="Resources\data.xml" />
     <None Include="Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend %28Queue +100%29.shader" />
     <None Include="Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend %28Queue +100%29.shader" />
     <None Include="Standard Assets %28Mobile%29\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
     <None Include="Standard Assets %28Mobile%29\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
     <None Include="Standard Assets %28Mobile%29\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
