@@ -1,15 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="BuildVehicle\Scripts\PartManager\PartManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BuildVehicle\Scripts\BuildVehicle\BuildMain.cs">
     <Files>
-      <File FileName="BuildVehicle\Scripts\Model.cs" Line="14" Column="1" />
-      <File FileName="BuildVehicle\Scripts\PartManager\PartManager.cs" Line="42" Column="3" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Model.cs">
-    <Files>
-      <File FileName="Assets\Scripts\Model.cs" Line="14" Column="1" />
->>>>>>> 5ecb3c9f881c054161a741121f32a0bc43c5b24e
+      <File FileName="BuildVehicle\Scripts\PartManager\PartManager.cs" Line="1" Column="1" />
+      <File FileName="BuildVehicle\Scripts\BuildVehicle\BuildMain.cs" Line="18" Column="2" />
+      <File FileName="BuildVehicle\Scripts\Garage\PlayerZone.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
